@@ -1,0 +1,132 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: #F4E7E1;
+}
+
+ul {
+    border: 1px solid black;
+    font-size: 25px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: greenyellow;
+}
+
+ul li {
+    float: right;
+}
+
+ul li a{
+    display: block;
+    color: yellow;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 10px;
+    
+
+}
+
+ul li a:hover{
+    background-color: black;
+    background-size: contain;
+}
+
+.nev2 span {
+    text-align: center;
+}
+
+.LOGO {
+    width: 100px;
+    height: 100px;
+
+
+}
+
+.Images {
+    height: 100vh;
+    width: 50%;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.loginform{
+    margin-right: 20%;
+    margin-top: 20%;
+}
+
+.logintype{
+    text-align: center;
+    display: grid;
+    padding: 16px 20px;
+}
+
+.loginbutton{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px;
+    width: 40%;
+    margin-left: 62px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.typemail{
+    padding: 2px 2px;
+    border-radius: 5px;
+}
+
+.pass{
+    padding: 2px 2px;
+    border-radius: 5px;
+}
+
+.buttonsec{
+    margin-top: 10px;
+    border: none;
+    display: inline-block;
+}
+
+.google{
+    padding: 5px 20px;
+}
+
+.facebook{
+    padding:  5px 20px;
+}
+
+.apple{
+    padding:  5px 20px;
+}
+
+.narok{
+    font-size: 20px;
+    align-items: center;
+}
+
+.register{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.Re{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.wel{
+    font-size: 65px;
+    margin-bottom: 100px;
+}
